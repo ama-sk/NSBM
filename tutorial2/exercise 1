@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Hello</title>
+<script>
+function x()
+{
+alert("This is an alert");
+}
+</script>
+</head>
+<body>
+<form name="new">
+<input type=button name="b" value="Button" onClick="x()">
+</form>
+</body>
+</html>
+
