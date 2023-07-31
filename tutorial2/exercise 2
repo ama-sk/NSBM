@@ -1,0 +1,42 @@
+
+<html>
+<head>
+  <title>Marks</title>
+</head>
+
+  <script>
+      a=prompt("Enter mark1: " $a,);
+      x(a);
+      b=prompt("Enter mark2: " $b,);
+      x(b);
+      c=prompt("Enter mark3: " $c,);
+      x(c);
+      d=prompt("Enter mark4: " $d,);
+      x(d);
+      e=prompt("Enter mark5: " $e,);
+      x(e);
+    
+
+  </script>
+    <body>
+      <script>
+      const total = $a + $b + $c + $d + $e;
+      const avg = total/ 5;
+      document.write("Sum: " +total);
+      document.write("Average " +avg;
+      function x(){
+          if (average > 30) {
+        alert("Congratulations! You passed.");
+      } else {
+        alert("Better luck next time.");
+      } 
+    }
+    </script>  
+    <form name="exercise2">
+                     <input type="button" name="submit" value="Grade" onClick="x()">
+      </form>
+          
+  
+  </body>
+
+</html>
