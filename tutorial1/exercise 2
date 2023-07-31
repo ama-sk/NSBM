@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>form</title>
+    <style>
+        #form{
+            background-color: aqua;
+            text-align: center;
+            margin-left: 500px;
+            margin-right: 500px;
+        }
+        h1{
+            background-color: pink;
+        }
+        
+    </style>
+</head>
+<body>
+    <img src="signup.jpg">
+    <div id="form">
+     <form method="post" action="new.php">
+            <h1>Sign Up</h1>
+            First Name: 
+            <input type="text" name="fname" value="Enter first name" required><br/><br/>
+            Last Name:
+            <input type="text" name="lname" value="Enter last name" required><br/><br/>  
+            Date of Birth:
+            <input type="date" name="dob" required><br/><br/>
+            Gender:
+            <input type="radio" name="g" value="F">Female
+            <input type="radio" name="g" value="M">Male<br><br>
+            Country:
+            <select name="c">
+                <option value="1">Country</option>
+                <option value="2">Sri Lanka</option>
+                <option value="3">USA</option>
+                <option value="4">China</option>
+            </select><br><br>
+            E-mail:
+            <input type="email" name="email" value="Enter email"><br/><br/>
+            Phone: 
+            <input type="tel" name="phone" value="Enter phone"><br/><br/>
+            Password:
+            <input type="password" name="pw"><br/><br/>
+            Confirm Password:
+            <input type="password" name="pw"><br/><br/>
+            <input type="checkbox" name="agree">I agree to the terms of use<br/><br/>
+            <input type="submit" name="button" value="Submit">
+            <input type="reset" name="r" value="Cancel">
+        </form>
+    </div>
+</body>
+</html>
