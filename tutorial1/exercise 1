@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Tutorial</title>
+
+</head>
+<body>
+<style>
+
+img{opacity:2.0;}
+</style>
+<font color=red face=times new roman align=center><h1>Quotes for life</h1>
+    </font>
+    <img src="nature2.jpg">
+    <br/>
+    <center><img src="quote.png" alt="quote" height=300 width=200 class="center"></center>
+    </body>
+</html>
+
+
